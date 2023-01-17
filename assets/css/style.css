@@ -1,0 +1,144 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+body {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	background-color: #F3F1FF;
+}
+.menu-bar {
+	background-color: #562EFF;
+}
+.main-menu {
+	width: 1060px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 0;
+}
+
+.logo img {
+	width: 50px;
+	margin-right: 10px;
+}
+
+a.logo {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+	display: flex;
+	align-items: center;
+}
+.menu a {
+	color: white;
+	text-decoration: none;
+	margin-right: 30px;
+	font-weight: 500;
+}
+
+.section {
+	width: 1040px;
+	margin: 50px auto;
+	background-color: white;
+	padding: 30px;
+	border-radius: 10px;
+}
+
+.section-title {
+	color: #3423DA;
+	font-size: 28px;
+	margin-top: 0;
+	margin-bottom: 35px;
+}
+
+.players, .blogs {
+	display: grid; /*grap paper ar moto shajanoke bujano hoyce*/
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 25px;
+	padding-bottom: 40px;
+}
+
+.single-player, .single-blog {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+
+}
+
+.single-player img {
+	width: 50px;
+	height: 50px;
+	/*margin-right: 20px;*/
+}
+.blogs {
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.single-blog img {
+	width: 180px;
+}
+
+.single-blog p {
+	color: #7757FF;
+	font-weight: 500;
+}
+
+
+.single-blog span {
+	color: gray;
+}
+
+/* Latest Courses */
+
+.courses {
+	display: flex;
+	column-gap: 40px;
+}
+
+.course {
+	padding: 20px;
+	box-shadow: 0px 5px 15px gray;
+	border-radius: 10px;
+	width: 300px;
+}
+.course img {
+	width: 100%;
+}
+.course-content h2 {
+	font-size: 30px;
+	font-weight: 600;
+	margin: 10px;
+}
+.course-content h3 {
+	color: #63E6BE ;
+	font-size: 30px;
+	
+	font-weight: 600;
+}
+.ratings {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.rating {
+	color: #FFD43B;
+}
+.rating .gray{
+	color: gray;
+}
+.rating p {
+	margin: 0px;
+}
+.time {color: red;
+	background-color:#E599F7 ;
+	padding: 5px;
+	border-radius: 4px;
+}
+
